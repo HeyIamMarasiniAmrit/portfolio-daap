@@ -1,16 +1,44 @@
-# React + Vite
+# Amrit Marasini - Portfolio DApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, fully decentralized **Personal Portfolio** built as a Web3 DApp.
 
-Currently, two official plugins are available:
+![Portfolio Preview](https://app.pinata.cloud/ipfs/YOUR_IMAGE_CID_HERE)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Wallet Connection** with MetaMask
+- Dynamic data loaded from **Smart Contract**
+- Responsive & Clean UI
+- Education, Experience, Projects & Skills sections
+- IPFS integration for images
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+**Frontend:**
+- React.js + Vite
+- Reactstrap
+- CSS3 (Custom)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+**Blockchain:**
+- Solidity
+- Web3.js
+- Hardhat
+
+**Others:**
+- IPFS (Pinata)
+- MetaMask
+
+## 🚀 Quick Start
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/amrit-portfolio.git
+
+# Go to client folder
+cd amrit-portfolio/client
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
