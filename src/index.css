@@ -1,0 +1,19 @@
+:root {
+    --color-bg: #0f172a;      /* Dark Blue Background */
+    --color-card: #1e2937;    /* Card Background */
+    --color-blue: #6366f1;    /* Main Accent Color */
+    --font-family: 'Inter', system-ui, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: white;
+    font-family: var(--font-family);
+    line-height: 1.6;
+}
